@@ -1,6 +1,6 @@
 {
   "name": "cbbh-exchange-rate",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Official Central Bank of Bosnia and Herzegovina (Bosnia and Herzegovina) daily exchange rates — 17 currencies vs BAM, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cbbh",
