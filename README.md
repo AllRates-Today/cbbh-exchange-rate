@@ -70,7 +70,7 @@ const pair = await getRate('EUR', 'BAM', { apiKey: 'art_live_...' });
 {
   bank: 'cbbh',
   name: 'Central Bank of Bosnia and Herzegovina',
-  rate_date: '2026-08-11',   // Central Bank of Bosnia and Herzegovina's own publication date
+  rate_date: '2026-09-09',   // Central Bank of Bosnia and Herzegovina's own publication date
   source: 'EUR',
   target: 'BAM',
   rate: 1.95583,
@@ -98,7 +98,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbbh',
   name: 'Central Bank of Bosnia and Herzegovina',
-  rate_date: '2026-08-11',
+  rate_date: '2026-09-09',
   rates: [
     { "base": "EUR", "quote": "BAM", "type": "middle", "value": 1.95583 },
     { "base": "EUR", "quote": "BAM", "type": "sell", "value": 1.95583 },
@@ -142,7 +142,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbbh-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'BAM', from: '2026-01-01', to: '2026-08-11' },
+  { source: 'EUR', target: 'BAM', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -155,11 +155,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'BAM',
   from: '2026-01-01',
-  to: '2026-08-11',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-11', rate: 1.95583, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 1.95583, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -172,9 +172,9 @@ Pass `{ symbol: 'EUR' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Central Bank of Bosnia and Herzegovina currently publishes rates covering **18 currencies** (as of the latest table):
+Central Bank of Bosnia and Herzegovina currently publishes rates covering **17 currencies** against the BAM (as of the latest table):
 
-`AUD` · `BAM` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EUR` · `GBP` · `HUF` · `JPY` · `NOK` · `RSD` · `RUB` · `SEK` · `TRY` · `USD` · `XDR`
+🇦🇺 `AUD` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇭🇺 `HUF` · 🇯🇵 `JPY` · 🇳🇴 `NOK` · 🇷🇸 `RSD` · 🇷🇺 `RUB` · 🇸🇪 `SEK` · 🇹🇷 `TRY` · 🇺🇸 `USD` · `XDR`
 
 ## ⚖️ Published vs derived rates
 
@@ -237,6 +237,14 @@ getRate('EUR', 'BAM', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2016 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/cbbh.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbbh/latest.json`
 
 ## 🔗 Links
 
