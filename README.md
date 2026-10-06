@@ -85,7 +85,7 @@ const pair = await getRate('EUR', 'BAM', { apiKey: 'art_live_...' });
 {
   bank: 'cbbh',
   name: 'Central Bank of Bosnia and Herzegovina',
-  rate_date: '2026-09-25',   // Central Bank of Bosnia and Herzegovina's own publication date
+  rate_date: '2026-10-06',   // Central Bank of Bosnia and Herzegovina's own publication date
   source: 'EUR',
   target: 'BAM',
   rate: 1.95583,
@@ -113,7 +113,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbbh',
   name: 'Central Bank of Bosnia and Herzegovina',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
     { "base": "EUR", "quote": "BAM", "type": "middle", "value": 1.95583 },
     { "base": "EUR", "quote": "BAM", "type": "sell", "value": 1.95583 },
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbbh-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'BAM', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'EUR', target: 'BAM', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'BAM',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 1.95583, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 1.95583, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
