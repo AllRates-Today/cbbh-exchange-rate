@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/cbbh-exchange-rate.svg)](https://github.com/AllRates-Today/cbbh-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/cbbh-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/BAM today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbbh%3Fsource%3DEUR%26target%3DBAM&query=%24.rate&label=EUR%2FBAM%20published%20by%20Central%20Bank%20of%20Bosnia%20and%20Herzegovina&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbbh/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbbh%3Fsource%3DEUR%26target%3DBAM&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbbh/)
 
 **Official Central Bank of Bosnia and Herzegovina (Bosnia and Herzegovina) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Bosnia and Herzegovina itself prints, every business day.**
 
@@ -32,6 +34,68 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Bosnia and Herzegovina table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | BAM | buy | 1.211012 |
+| AUD | BAM | middle | 1.214047 |
+| AUD | BAM | sell | 1.217082 |
+| CAD | BAM | buy | 1.22293 |
+| CAD | BAM | middle | 1.225995 |
+| CAD | BAM | sell | 1.22906 |
+| CHF | BAM | buy | 2.091937 |
+| CHF | BAM | middle | 2.09718 |
+| CHF | BAM | sell | 2.102423 |
+| CNY | BAM | buy | 0.260223 |
+| CNY | BAM | middle | 0.260875 |
+| CNY | BAM | sell | 0.261527 |
+| CZK | BAM | buy | 0.079947 |
+| CZK | BAM | middle | 0.080147 |
+| CZK | BAM | sell | 0.080347 |
+| DKK | BAM | buy | 0.261034 |
+| DKK | BAM | middle | 0.261688 |
+| DKK | BAM | sell | 0.262342 |
+| EUR | BAM | buy | 1.95583 |
+| EUR | BAM | middle | 1.95583 |
+| EUR | BAM | sell | 1.95583 |
+| GBP | BAM | buy | 2.303408 |
+| GBP | BAM | middle | 2.309181 |
+| GBP | BAM | sell | 2.314954 |
+| HUF | BAM | buy | 0.0053268 |
+| HUF | BAM | middle | 0.00534015 |
+| HUF | BAM | sell | 0.0053535 |
+| JPY | BAM | buy | 0.01101915 |
+| JPY | BAM | middle | 0.01104677 |
+| JPY | BAM | sell | 0.01107439 |
+| NOK | BAM | buy | 0.182042 |
+| NOK | BAM | middle | 0.182498 |
+| NOK | BAM | sell | 0.182954 |
+| RSD | BAM | buy | 0.01662143 |
+| RSD | BAM | middle | 0.01666309 |
+| RSD | BAM | sell | 0.01670475 |
+| RUB | BAM | buy | 0.020485 |
+| RUB | BAM | middle | 0.020536 |
+| RUB | BAM | sell | 0.020587 |
+| SEK | BAM | buy | 0.174284 |
+| SEK | BAM | middle | 0.174721 |
+| SEK | BAM | sell | 0.175158 |
+| TRY | BAM | buy | 0.035438 |
+| TRY | BAM | middle | 0.035527 |
+| TRY | BAM | sell | 0.035616 |
+| USD | BAM | buy | 1.744091 |
+| USD | BAM | middle | 1.748462 |
+| USD | BAM | sell | 1.752833 |
+| XDR | BAM | middle | 2.366163 |
+
+Source: [Official rates published by CBBH, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbbh/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
