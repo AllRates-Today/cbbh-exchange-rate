@@ -42,59 +42,59 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-14.
+Published **2026-10-15** by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BAM | buy | 1.216828 |
-| AUD | BAM | middle | 1.219878 |
-| AUD | BAM | sell | 1.222928 |
-| CAD | BAM | buy | 1.224465 |
-| CAD | BAM | middle | 1.227534 |
-| CAD | BAM | sell | 1.230603 |
-| CHF | BAM | buy | 2.095082 |
-| CHF | BAM | middle | 2.100333 |
-| CHF | BAM | sell | 2.105584 |
-| CNY | BAM | buy | 0.260507 |
-| CNY | BAM | middle | 0.26116 |
-| CNY | BAM | sell | 0.261813 |
-| CZK | BAM | buy | 0.080061 |
-| CZK | BAM | middle | 0.080262 |
-| CZK | BAM | sell | 0.080463 |
-| DKK | BAM | buy | 0.260985 |
-| DKK | BAM | middle | 0.261639 |
-| DKK | BAM | sell | 0.262293 |
+| AUD | BAM | buy | 1.221551 |
+| AUD | BAM | middle | 1.224613 |
+| AUD | BAM | sell | 1.227675 |
+| CAD | BAM | buy | 1.225619 |
+| CAD | BAM | middle | 1.228691 |
+| CAD | BAM | sell | 1.231763 |
+| CHF | BAM | buy | 2.09104 |
+| CHF | BAM | middle | 2.096281 |
+| CHF | BAM | sell | 2.101522 |
+| CNY | BAM | buy | 0.260385 |
+| CNY | BAM | middle | 0.261038 |
+| CNY | BAM | sell | 0.261691 |
+| CZK | BAM | buy | 0.080097 |
+| CZK | BAM | middle | 0.080298 |
+| CZK | BAM | sell | 0.080499 |
+| DKK | BAM | buy | 0.260981 |
+| DKK | BAM | middle | 0.261635 |
+| DKK | BAM | sell | 0.262289 |
 | EUR | BAM | buy | 1.95583 |
 | EUR | BAM | middle | 1.95583 |
 | EUR | BAM | sell | 1.95583 |
-| GBP | BAM | buy | 2.309899 |
-| GBP | BAM | middle | 2.315688 |
-| GBP | BAM | sell | 2.321477 |
-| HUF | BAM | buy | 0.00535517 |
-| HUF | BAM | middle | 0.00536859 |
-| HUF | BAM | sell | 0.00538201 |
-| JPY | BAM | buy | 0.01102787 |
-| JPY | BAM | middle | 0.01105551 |
-| JPY | BAM | sell | 0.01108315 |
-| NOK | BAM | buy | 0.18287 |
-| NOK | BAM | middle | 0.183328 |
-| NOK | BAM | sell | 0.183786 |
-| RSD | BAM | buy | 0.01662093 |
-| RSD | BAM | middle | 0.01666259 |
-| RSD | BAM | sell | 0.01670425 |
-| RUB | BAM | buy | 0.020785 |
-| RUB | BAM | middle | 0.020837 |
-| RUB | BAM | sell | 0.020889 |
-| SEK | BAM | buy | 0.174662 |
-| SEK | BAM | middle | 0.1751 |
-| SEK | BAM | sell | 0.175538 |
-| TRY | BAM | buy | 0.035322 |
-| TRY | BAM | middle | 0.035411 |
-| TRY | BAM | sell | 0.0355 |
-| USD | BAM | buy | 1.74378 |
-| USD | BAM | middle | 1.74815 |
-| USD | BAM | sell | 1.75252 |
-| XDR | BAM | middle | 2.361899 |
+| GBP | BAM | buy | 2.311952 |
+| GBP | BAM | middle | 2.317746 |
+| GBP | BAM | sell | 2.32354 |
+| HUF | BAM | buy | 0.00537005 |
+| HUF | BAM | middle | 0.00538351 |
+| HUF | BAM | sell | 0.00539697 |
+| JPY | BAM | buy | 0.01099803 |
+| JPY | BAM | middle | 0.01102559 |
+| JPY | BAM | sell | 0.01105315 |
+| NOK | BAM | buy | 0.18399 |
+| NOK | BAM | middle | 0.184451 |
+| NOK | BAM | sell | 0.184912 |
+| RSD | BAM | buy | 0.01661942 |
+| RSD | BAM | middle | 0.01666107 |
+| RSD | BAM | sell | 0.01670272 |
+| RUB | BAM | buy | 0.020884 |
+| RUB | BAM | middle | 0.020936 |
+| RUB | BAM | sell | 0.020988 |
+| SEK | BAM | buy | 0.174847 |
+| SEK | BAM | middle | 0.175285 |
+| SEK | BAM | sell | 0.175723 |
+| TRY | BAM | buy | 0.035285 |
+| TRY | BAM | middle | 0.035373 |
+| TRY | BAM | sell | 0.035461 |
+| USD | BAM | buy | 1.742689 |
+| USD | BAM | middle | 1.747057 |
+| USD | BAM | sell | 1.751425 |
+| XDR | BAM | middle | 2.364579 |
 
 Source: [Official rates published by CBBH, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbbh/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
