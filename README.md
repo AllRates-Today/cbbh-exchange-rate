@@ -47,59 +47,59 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BAM | buy | 1.230411 |
-| AUD | BAM | middle | 1.233495 |
-| AUD | BAM | sell | 1.236579 |
-| CAD | BAM | buy | 1.247724 |
-| CAD | BAM | middle | 1.250851 |
-| CAD | BAM | sell | 1.253978 |
-| CHF | BAM | buy | 2.111636 |
-| CHF | BAM | middle | 2.116928 |
-| CHF | BAM | sell | 2.12222 |
-| CNY | BAM | buy | 0.262424 |
-| CNY | BAM | middle | 0.263082 |
-| CNY | BAM | sell | 0.26374 |
-| CZK | BAM | buy | 0.080127 |
-| CZK | BAM | middle | 0.080328 |
-| CZK | BAM | sell | 0.080529 |
-| DKK | BAM | buy | 0.261024 |
-| DKK | BAM | middle | 0.261678 |
-| DKK | BAM | sell | 0.262332 |
+| AUD | BAM | buy | 1.232432 |
+| AUD | BAM | middle | 1.235521 |
+| AUD | BAM | sell | 1.23861 |
+| CAD | BAM | buy | 1.247564 |
+| CAD | BAM | middle | 1.250691 |
+| CAD | BAM | sell | 1.253818 |
+| CHF | BAM | buy | 2.109809 |
+| CHF | BAM | middle | 2.115097 |
+| CHF | BAM | sell | 2.120385 |
+| CNY | BAM | buy | 0.26287 |
+| CNY | BAM | middle | 0.263529 |
+| CNY | BAM | sell | 0.264188 |
+| CZK | BAM | buy | 0.080065 |
+| CZK | BAM | middle | 0.080266 |
+| CZK | BAM | sell | 0.080467 |
+| DKK | BAM | buy | 0.261027 |
+| DKK | BAM | middle | 0.261681 |
+| DKK | BAM | sell | 0.262335 |
 | EUR | BAM | buy | 1.95583 |
 | EUR | BAM | middle | 1.95583 |
 | EUR | BAM | sell | 1.95583 |
-| GBP | BAM | buy | 2.332043 |
-| GBP | BAM | middle | 2.337888 |
-| GBP | BAM | sell | 2.343733 |
-| HUF | BAM | buy | 0.00530897 |
-| HUF | BAM | middle | 0.00532228 |
-| HUF | BAM | sell | 0.00533559 |
-| JPY | BAM | buy | 0.01108677 |
-| JPY | BAM | middle | 0.01111456 |
-| JPY | BAM | sell | 0.01114235 |
-| NOK | BAM | buy | 0.187798 |
-| NOK | BAM | middle | 0.188269 |
-| NOK | BAM | sell | 0.18874 |
-| RSD | BAM | buy | 0.01660217 |
-| RSD | BAM | middle | 0.01664378 |
-| RSD | BAM | sell | 0.01668539 |
-| RUB | BAM | buy | 0.021727 |
-| RUB | BAM | middle | 0.021781 |
-| RUB | BAM | sell | 0.021835 |
-| SEK | BAM | buy | 0.176086 |
-| SEK | BAM | middle | 0.176527 |
-| SEK | BAM | sell | 0.176968 |
-| TRY | BAM | buy | 0.035144 |
-| TRY | BAM | middle | 0.035232 |
-| TRY | BAM | sell | 0.03532 |
-| USD | BAM | buy | 1.749723 |
-| USD | BAM | middle | 1.754108 |
-| USD | BAM | sell | 1.758493 |
-| XDR | BAM | middle | 2.368412 |
+| GBP | BAM | buy | 2.328508 |
+| GBP | BAM | middle | 2.334344 |
+| GBP | BAM | sell | 2.34018 |
+| HUF | BAM | buy | 0.00531765 |
+| HUF | BAM | middle | 0.00533098 |
+| HUF | BAM | sell | 0.00534431 |
+| JPY | BAM | buy | 0.01109372 |
+| JPY | BAM | middle | 0.01112152 |
+| JPY | BAM | sell | 0.01114932 |
+| NOK | BAM | buy | 0.188542 |
+| NOK | BAM | middle | 0.189015 |
+| NOK | BAM | sell | 0.189488 |
+| RSD | BAM | buy | 0.01660123 |
+| RSD | BAM | middle | 0.01664284 |
+| RSD | BAM | sell | 0.01668445 |
+| RUB | BAM | buy | 0.02175 |
+| RUB | BAM | middle | 0.021805 |
+| RUB | BAM | sell | 0.02186 |
+| SEK | BAM | buy | 0.17646 |
+| SEK | BAM | middle | 0.176902 |
+| SEK | BAM | sell | 0.177344 |
+| TRY | BAM | buy | 0.035162 |
+| TRY | BAM | middle | 0.03525 |
+| TRY | BAM | sell | 0.035338 |
+| USD | BAM | buy | 1.752394 |
+| USD | BAM | middle | 1.756786 |
+| USD | BAM | sell | 1.761178 |
+| XDR | BAM | middle | 2.372637 |
 
 </details>
 
@@ -266,6 +266,7 @@ The Central Bank of Bosnia and Herzegovina operates a currency board: the conver
 
 - Publisher's own page: [Currency exchange rate list](https://www.cbbh.ba/CurrencyExchange/) · [www.cbbh.ba](https://www.cbbh.ba)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Bosnia and Herzegovina rates page](https://allratestoday.com/central-bank-rates-api/cbbh/)
+- In the API: usually by **23:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
