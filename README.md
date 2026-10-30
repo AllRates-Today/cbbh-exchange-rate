@@ -24,82 +24,67 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Central Bank of Bosnia and Herzegovina table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/cbbh?source=EUR&target=BAM"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/cbbh').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Central Bank of Bosnia and Herzegovina table](https://allratestoday.com/api/open/central-bank/cbbh/table.svg)](https://allratestoday.com/central-bank-rates-api/cbbh/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BAM | buy | 1.232432 |
-| AUD | BAM | middle | 1.235521 |
-| AUD | BAM | sell | 1.23861 |
-| CAD | BAM | buy | 1.247564 |
-| CAD | BAM | middle | 1.250691 |
-| CAD | BAM | sell | 1.253818 |
-| CHF | BAM | buy | 2.109809 |
-| CHF | BAM | middle | 2.115097 |
-| CHF | BAM | sell | 2.120385 |
-| CNY | BAM | buy | 0.26287 |
-| CNY | BAM | middle | 0.263529 |
-| CNY | BAM | sell | 0.264188 |
-| CZK | BAM | buy | 0.080065 |
-| CZK | BAM | middle | 0.080266 |
-| CZK | BAM | sell | 0.080467 |
-| DKK | BAM | buy | 0.261027 |
-| DKK | BAM | middle | 0.261681 |
-| DKK | BAM | sell | 0.262335 |
+| AUD | BAM | buy | 1.231499 |
+| AUD | BAM | middle | 1.234585 |
+| AUD | BAM | sell | 1.237671 |
+| CAD | BAM | buy | 1.252449 |
+| CAD | BAM | middle | 1.255588 |
+| CAD | BAM | sell | 1.258727 |
+| CHF | BAM | buy | 2.115529 |
+| CHF | BAM | middle | 2.120831 |
+| CHF | BAM | sell | 2.126133 |
+| CNY | BAM | buy | 0.263129 |
+| CNY | BAM | middle | 0.263788 |
+| CNY | BAM | sell | 0.264447 |
+| CZK | BAM | buy | 0.080167 |
+| CZK | BAM | middle | 0.080368 |
+| CZK | BAM | sell | 0.080569 |
+| DKK | BAM | buy | 0.261045 |
+| DKK | BAM | middle | 0.261699 |
+| DKK | BAM | sell | 0.262353 |
 | EUR | BAM | buy | 1.95583 |
 | EUR | BAM | middle | 1.95583 |
 | EUR | BAM | sell | 1.95583 |
-| GBP | BAM | buy | 2.328508 |
-| GBP | BAM | middle | 2.334344 |
-| GBP | BAM | sell | 2.34018 |
-| HUF | BAM | buy | 0.00531765 |
-| HUF | BAM | middle | 0.00533098 |
-| HUF | BAM | sell | 0.00534431 |
-| JPY | BAM | buy | 0.01109372 |
-| JPY | BAM | middle | 0.01112152 |
-| JPY | BAM | sell | 0.01114932 |
-| NOK | BAM | buy | 0.188542 |
-| NOK | BAM | middle | 0.189015 |
-| NOK | BAM | sell | 0.189488 |
-| RSD | BAM | buy | 0.01660123 |
-| RSD | BAM | middle | 0.01664284 |
-| RSD | BAM | sell | 0.01668445 |
-| RUB | BAM | buy | 0.02175 |
-| RUB | BAM | middle | 0.021805 |
-| RUB | BAM | sell | 0.02186 |
-| SEK | BAM | buy | 0.17646 |
-| SEK | BAM | middle | 0.176902 |
-| SEK | BAM | sell | 0.177344 |
-| TRY | BAM | buy | 0.035162 |
-| TRY | BAM | middle | 0.03525 |
-| TRY | BAM | sell | 0.035338 |
-| USD | BAM | buy | 1.752394 |
-| USD | BAM | middle | 1.756786 |
-| USD | BAM | sell | 1.761178 |
-| XDR | BAM | middle | 2.372637 |
+| GBP | BAM | buy | 2.334275 |
+| GBP | BAM | middle | 2.340125 |
+| GBP | BAM | sell | 2.345975 |
+| HUF | BAM | buy | 0.00533117 |
+| HUF | BAM | middle | 0.00534453 |
+| HUF | BAM | sell | 0.00535789 |
+| JPY | BAM | buy | 0.01108993 |
+| JPY | BAM | middle | 0.01111772 |
+| JPY | BAM | sell | 0.01114551 |
+| NOK | BAM | buy | 0.188834 |
+| NOK | BAM | middle | 0.189307 |
+| NOK | BAM | sell | 0.18978 |
+| RSD | BAM | buy | 0.01660042 |
+| RSD | BAM | middle | 0.01664203 |
+| RSD | BAM | sell | 0.01668364 |
+| RUB | BAM | buy | 0.021615 |
+| RUB | BAM | middle | 0.021669 |
+| RUB | BAM | sell | 0.021723 |
+| SEK | BAM | buy | 0.177366 |
+| SEK | BAM | middle | 0.177811 |
+| SEK | BAM | sell | 0.178256 |
+| TRY | BAM | buy | 0.035172 |
+| TRY | BAM | middle | 0.03526 |
+| TRY | BAM | sell | 0.035348 |
+| USD | BAM | buy | 1.752867 |
+| USD | BAM | middle | 1.75726 |
+| USD | BAM | sell | 1.761653 |
+| XDR | BAM | middle | 2.374788 |
 
 </details>
 
