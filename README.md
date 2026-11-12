@@ -32,59 +32,59 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-11 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-11-11.</summary>
+<summary>Table as text: published 2026-11-12 by Central Bank of Bosnia and Herzegovina — 49 rates. Updated 2026-11-12.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BAM | buy | 1.201022 |
-| AUD | BAM | middle | 1.204032 |
-| AUD | BAM | sell | 1.207042 |
-| CAD | BAM | buy | 1.230721 |
-| CAD | BAM | middle | 1.233806 |
-| CAD | BAM | sell | 1.236891 |
-| CHF | BAM | buy | 2.119896 |
-| CHF | BAM | middle | 2.125209 |
-| CHF | BAM | sell | 2.130522 |
-| CNY | BAM | buy | 0.260817 |
-| CNY | BAM | middle | 0.261471 |
-| CNY | BAM | sell | 0.262125 |
-| CZK | BAM | buy | 0.080163 |
-| CZK | BAM | middle | 0.080364 |
-| CZK | BAM | sell | 0.080565 |
-| DKK | BAM | buy | 0.260981 |
-| DKK | BAM | middle | 0.261635 |
-| DKK | BAM | sell | 0.262289 |
+| AUD | BAM | buy | 1.202651 |
+| AUD | BAM | middle | 1.205665 |
+| AUD | BAM | sell | 1.208679 |
+| CAD | BAM | buy | 1.231732 |
+| CAD | BAM | middle | 1.234819 |
+| CAD | BAM | sell | 1.237906 |
+| CHF | BAM | buy | 2.11278 |
+| CHF | BAM | middle | 2.118075 |
+| CHF | BAM | sell | 2.12337 |
+| CNY | BAM | buy | 0.262841 |
+| CNY | BAM | middle | 0.2635 |
+| CNY | BAM | sell | 0.264159 |
+| CZK | BAM | buy | 0.080028 |
+| CZK | BAM | middle | 0.080229 |
+| CZK | BAM | sell | 0.08043 |
+| DKK | BAM | buy | 0.260978 |
+| DKK | BAM | middle | 0.261632 |
+| DKK | BAM | sell | 0.262286 |
 | EUR | BAM | buy | 1.95583 |
 | EUR | BAM | middle | 1.95583 |
 | EUR | BAM | sell | 1.95583 |
-| GBP | BAM | buy | 2.335197 |
-| GBP | BAM | middle | 2.34105 |
-| GBP | BAM | sell | 2.346903 |
-| HUF | BAM | buy | 0.00537479 |
-| HUF | BAM | middle | 0.00538826 |
-| HUF | BAM | sell | 0.00540173 |
-| JPY | BAM | buy | 0.01099864 |
-| JPY | BAM | middle | 0.01102621 |
-| JPY | BAM | sell | 0.01105378 |
-| NOK | BAM | buy | 0.183782 |
-| NOK | BAM | middle | 0.184243 |
-| NOK | BAM | sell | 0.184704 |
+| GBP | BAM | buy | 2.333158 |
+| GBP | BAM | middle | 2.339006 |
+| GBP | BAM | sell | 2.344854 |
+| HUF | BAM | buy | 0.00534387 |
+| HUF | BAM | middle | 0.00535726 |
+| HUF | BAM | sell | 0.00537065 |
+| JPY | BAM | buy | 0.01101106 |
+| JPY | BAM | middle | 0.01103866 |
+| JPY | BAM | sell | 0.01106626 |
+| NOK | BAM | buy | 0.183799 |
+| NOK | BAM | middle | 0.18426 |
+| NOK | BAM | sell | 0.184721 |
 | RSD | BAM | buy | 0.01658533 |
 | RSD | BAM | middle | 0.0166269 |
 | RSD | BAM | sell | 0.01666847 |
-| RUB | BAM | buy | 0.021023 |
-| RUB | BAM | middle | 0.021076 |
-| RUB | BAM | sell | 0.021129 |
-| SEK | BAM | buy | 0.177503 |
-| SEK | BAM | middle | 0.177948 |
-| SEK | BAM | sell | 0.178393 |
-| TRY | BAM | buy | 0.03464 |
-| TRY | BAM | middle | 0.034727 |
-| TRY | BAM | sell | 0.034814 |
-| USD | BAM | buy | 1.739737 |
-| USD | BAM | middle | 1.744097 |
-| USD | BAM | sell | 1.748457 |
-| XDR | BAM | middle | 2.367395 |
+| RUB | BAM | buy | 0.021182 |
+| RUB | BAM | middle | 0.021235 |
+| RUB | BAM | sell | 0.021288 |
+| SEK | BAM | buy | 0.17654 |
+| SEK | BAM | middle | 0.176982 |
+| SEK | BAM | sell | 0.177424 |
+| TRY | BAM | buy | 0.034907 |
+| TRY | BAM | middle | 0.034994 |
+| TRY | BAM | sell | 0.035081 |
+| USD | BAM | buy | 1.753339 |
+| USD | BAM | middle | 1.757733 |
+| USD | BAM | sell | 1.762127 |
+| XDR | BAM | middle | 2.364833 |
 
 </details>
 
